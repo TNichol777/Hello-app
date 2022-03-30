@@ -21,5 +21,9 @@ public class HelloAppApplication {
 	public String sayBye() {
 		return "Goodbye, old friend";
 	}
+	@GetMapping("/sayThanks")
+	public String sayThanks() {
+		return "Preciate it my boy";
+	}
 
 }
